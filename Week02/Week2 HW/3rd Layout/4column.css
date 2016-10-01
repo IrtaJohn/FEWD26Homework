@@ -1,0 +1,94 @@
+.clearfix:after {
+display: table;
+clear: both;
+     }
+
+.placeholder {
+	border: 1px solid black;
+	background: rgba(255, 255, 255,.6);
+	padding: 20px;
+	height: 150px;
+	margin: 10px;
+}
+
+/* HEADER */
+.hdcontainer{
+	width: 100%;
+	height: 20%;
+	overflow: auto;
+	background: yellow;
+
+}
+
+/* MAIN */
+.mncontainer{
+	width: 100%;
+	background: blue;
+	overflow: auto;
+}	
+
+	/* MAIN LEFT */
+.mndiv1container{
+	width: 50%;
+	float: left;
+}	
+
+.mndiv1container .placeholder {
+	height: 300px;
+}
+
+	/* MAIN RIGHT */
+.mndiv2container{
+	width: 50%;
+	float: right;
+
+}
+
+.mndiv2container .placeholder {
+	height: 300px;
+}
+
+/* SECTION */
+.sccontainer{
+	width: 100%;
+	background: red;
+	overflow: auto;
+}
+
+	/* SECTION LEFT */
+.scdiv1container{
+	width: 33.33%;
+	float: left;
+}
+
+.scdiv1container .placeholder{
+	height: 150px;
+}
+
+	/* SECTION CENTER */
+.scdiv2container{
+	width: 33.33%;
+	float: left;
+}
+
+.scdiv2container .placeholder{
+	height: 150px;
+}
+
+	/* SECTION RIGHT */
+.scdiv3container{
+	width: 33.33%;
+	float: right;
+}
+
+.scdiv3container .placeholder{
+	height: 150px;
+}
+
+/* FOOTER */
+.ftcontainer{
+	width: 100%;
+	background: green;
+	clear: both;
+	overflow: auto;
+}

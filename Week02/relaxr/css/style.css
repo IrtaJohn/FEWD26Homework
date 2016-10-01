@@ -1,0 +1,104 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* FONTS */
+  .font-all{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  }
+  .font-logo{
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .font-toplogo{
+    color: white;
+    margin-left: 40px;
+  }
+  .font-slogan{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .font-quote{
+
+  }
+
+  }
+  .font-quotename{
+
+  }
+  .font-logo{
+
+  }
+  .font-bottomlogo{
+
+  }
+/* BUTTONS */
+  .btn-getnow{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    width: 280px;
+    border-radius: 5px;
+    background: yellow;
+
+  }
+  .btn-signup{
+
+  }
+/* HEADER */
+  .wppr-headerall{
+    background: url(../images/header_bg.jpg);
+    position: top center;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 700px;
+    background-size: cover;
+
+  }
+  .wppr-headerallalign{
+
+  }
+  
+/* MAIN */
+  .wppr-benefitsalign{
+
+  }
+  .ul-benefits{
+
+  }
+  .wppr-quotesection{
+
+  }
+  .wppr-quotesectionalign{
+
+  }
+  .wppr-signupbtn{
+
+  }
+/* FOOTER */
+  .wppr-footer{
+
+  }
+  .wppr-footeralign{
+    
+  }

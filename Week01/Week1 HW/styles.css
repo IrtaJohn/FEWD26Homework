@@ -1,0 +1,31 @@
+body{
+	background-color: #F6F6F6;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #05080C;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+header{
+	border-top: 5px solid #222222;
+}
+
+article{
+	border-bottom: 5px solid #222222;
+}
+
+th{
+	background-color: #222222;
+	color: #FFFFFF;
+	padding: 5px 10px
+}
+
+td{
+	background-color: #eeeeee;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+}

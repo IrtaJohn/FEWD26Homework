@@ -1,0 +1,66 @@
+.clearfix:after {
+display: table;
+clear: both;
+     }
+
+.placeholder {
+	border: 1px solid black;
+	background: rgba(255, 255, 255,.6);
+	padding: 20px;
+	height: 150px;
+	margin: 10px;
+}
+
+/* HEADER */
+
+.hdcontainer{
+    background: green;
+    width: 100%;
+    overflow: auto;
+}
+
+/* MAIN */
+.mncontainer{
+    background: blue;
+    width: 100%;
+    overflow: auto;
+}
+
+/* NAVIGATION */
+.nvcontainer{
+	width: 20%;
+	float: left;	
+}
+
+.nvcontainer .placeholder{
+	height: 500px;
+}
+
+/* SECTION - MIDDLE */
+.sccontainer{
+	width: 60%;
+	float: left;
+}
+
+.sccontainer .placeholder{
+	height: 500px;
+}
+
+/* ASIDE */
+.ascontainer{
+	width: 20%;
+	float: right;
+}
+
+.ascontainer .placeholder{
+	height: 500px;
+}
+
+/* FOOTER */
+
+.ftcontainer{
+	background: red;
+	width: 100%;
+	clear: both;
+	overflow: auto;
+}

@@ -1,0 +1,176 @@
+.clearfix:after {
+display: table;
+clear: both;
+     }
+
+.placeholder {
+	border: 1px solid black;
+	background: rgba(255, 255, 255,.6);
+	padding: 20px;
+	height: 150px;
+	margin: 10px;
+}
+
+/* HEADER */
+.hdcontainer{
+	width: 100%;
+	height: 20%;
+	overflow: auto;
+	padding-bottom: 20px;
+	padding-left: 0;
+}
+
+.toplogo{
+	width: 25%;
+	float: left;
+	margin-top: 20px;
+	background: yellow;
+	padding-top: 70px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.topnav{
+	width: 50%;
+	float: right;
+	overflow: auto;
+	margin-top: 40px;
+}
+
+.topnav ul{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.hdnavul li{
+	display: inline-block;	
+	padding: 10px;
+	margin-right: 10px;
+	width: 70px;
+	border: 1px solid black;
+	background: yellow;
+}
+
+
+/* MAIN */
+
+.aside{
+	width: 34%;
+	background: blue;
+	padding-top: 400px:;
+	padding-bottom: 400px;
+	border: 1px solid black;
+	text-align: center;
+	float: left;
+}
+
+.mncontainer{
+	width: 65%;
+	background: green;
+	padding-top: 100px:;
+	padding-bottom: 100px;
+	border: 1px solid black;
+	text-align: center;
+	float: right;
+}
+
+.article1{
+	width: 100%;
+	background: yellow;
+	padding-top: 100px:;
+	padding-bottom: 100px;
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+.article2{
+	width: 100%;
+	background: red;
+	padding-top: 120px:;
+	padding-bottom: 120px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+	.article2a{
+		width: 70%;
+		padding-top: 100px:;
+		padding-bottom: 100px;
+		border: 1px solid black;
+		text-align: center;
+		float:left;
+
+	}
+
+	.article2b{
+		width: 25%;
+		padding-top: 100px:;
+		padding-bottom: 100px;
+		border: 1px solid black;
+		text-align: center;
+		float:right;
+	}
+
+.article3{
+	width: 100%;
+	background: gray;
+	padding-top: 100px:;
+	padding-bottom: 100px;
+	border: 1px solid black;
+	text-align: center;
+}
+	.articlediv1{
+		float: left;
+	}
+		.article3a{
+			width: 22%;
+			padding-top: 80px:;
+			padding-bottom: 80px;
+			border: 1px solid black;
+			text-align: center;
+			float: left;
+		}
+		.article3b{
+			width: 22%;
+			padding-top: 80px:;
+			padding-bottom: 80px;
+			border: 1px solid black;
+			text-align: center;
+			float: right;
+		}
+
+	.articlediv2{
+		float: right;
+
+	}
+		.article3c{
+			width: 22%;
+			padding-top: 80px:;
+			padding-bottom: 80px;
+			border: 1px solid black;
+			text-align: center;
+			float: left;
+		}
+		.article3d{
+			width: 22%;
+			padding-top: 80px:;
+			padding-bottom: 80px;
+			border: 1px solid black;
+			text-align: right;
+			float: right;
+		}
+
+/* FOOTER */
+.ftcontainer{
+	width: 100%;
+	height:150px;
+	background-color:yellow;
+	display:inline-block;
+	clear: both;
+	overflow: auto;
+	text-align:center;
+}

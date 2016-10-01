@@ -1,0 +1,153 @@
+/*Stylesheet for Dworbell.com - All pages*/
+
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* The Entire Body*/
+	.entirepage_style{
+		/*min-height: 100%;*/
+		background: rgb(59,74,120);
+	}
+/* Header */
+	.headerwpr_style{
+		border-bottom: solid 5px rgb(93,52,20);
+		background: white;
+		/*min-height: 30%;*/
+		margin-bottom: 0;
+	}
+
+	.logo_dworbell{
+		margin: 0 auto;
+	}
+
+.searchandcontact_style{
+	/*padding-top: 50px;*/
+
+}
+
+	.searchandcontactuswppr{
+		float: right;
+		max-width: 320px;
+		padding-top: 20px;
+
+	}
+
+	.searchouterwpr{
+		float: left;
+		width: 70%;
+
+	}
+		.fillinsearch{
+			float: left;
+			width: 100%;
+		}
+
+	.link_contactus{
+		float: right;
+		width: 30%;
+		padding-left: 20px;
+		}
+		.link_contactus p{
+			font-weight: bold;
+			border-left: solid 5px rgb(93,52,20);
+			padding-left: 20px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			float: left;
+		}
+		.link_contactus a{
+			color: rgb(93,52,20);
+		}
+
+
+
+/* Navagation */
+	.navcolor{
+		background: rgb(59,74,120);
+		border-bottom: solid 5px rgb(93,52,20);
+	}
+
+	/*.navstyle{
+		margin-top: 10px;
+
+	}
+
+	.ulwpr_style{
+		text-align: center;
+		padding-bottom: 0;
+	}
+	.ulwpr_style li{
+		display: inline-block;
+		width: 33%;
+	}
+
+.navabout{
+	border-right: 3px solid #ddd;
+	color: #fff;
+}
+
+.navservices{
+	border-right: 3px solid #ddd;
+}
+
+.navabout a{
+	font-size: 18px;
+	color: #fff;
+}
+.navclients a{
+	font-size: 18px;
+	color: #fff;
+}
+.navservices a{
+	font-size: 18px;
+	color: #fff;
+}*/
+
+/* Main Body */
+	.maincontentwpr_style{
+		margin: 0 auto;
+		/*padding-bottom: 50px;*/
+		/*padding-top: 50px;*/
+		/*min-height: 40%;*/
+		background: #fff;
+		padding-bottom: 100px;
+	}
+	.cmpyphrase{
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	.dworbellgraphic{
+		/*margin-right: 0;*/
+		padding-top: 40px;
+	}
+
+/* Footer */
+.footerwp_style{
+	border-top: solid 5px rgb(93,52,20);
+	background: rgb(59,74,120);
+	position:bottom;
+	padding-bottom: 0;
+	/*min-height: 30%*/
+}
+.footercontent{
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+

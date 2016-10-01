@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Dworbell, Inc. is an association management firm.">
+
+		<title>Dworbell Home</title>
+
+		<!-- Normalize -->
+		<link rel="stylesheet" href="css/normalize.css">
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Colorbox -->
+		<link rel="stylesheet" href="css/colorbox.css"/>
+
+		<!-- FlexNav -->
+		<link href="css/flexnav.css" rel="stylesheet" type="text/css" />
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+		<!-- Personal CSS link -->
+		<link rel="stylesheet" href="css/generalstyle.css">
+
+	</head>
+	<body class="entirepage_style clearfix">
+		<header class="container-fluid headerwpr_style"><!-- Container begins -->
+			<div class="row"><!-- row begins -->
+				<div class="col-md-4 logo_dworbell"><!-- col-md begins -->
+					<img src="images/dworbelllogowide.jpg" alt="Dworbell, Inc. Logo">
+				</div><!-- col-md ends -->
+				
+				<div class="col-md-8 searchandcontact_style"> <!-- col-md begins -->
+					<div class="searchandcontactuswppr">
+						<div class="searchouterwpr">
+							<div class="fillinsearch">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Search">
+									<span class="input-group-btn">
+									<button class="btn btn-default" type="button">Go!</button>
+									</span>
+								</div><!-- end of Bootstrap search-->
+							</div>
+						</div>
+						<div class="link_contactus">
+							<p><a class='inline' href="#inline_content">Contact Us</a></p><!-- Colorbox-->
+					        <!-- This contains the hidden content for inline calls -->
+					        <div style='display:none'>
+					            <div id='inline_content' style='padding:10px; background:#fff;'>
+					            <p>Contact us at (202) 939-1740.</p>
+					            </div>
+					        </div>
+						</div>
+					</div>
+				</div><!-- col-md ends -->	
+
+			</div><!-- row ends -->
+		</header><!-- container ends -->
+		
+
+		<main class="container-fluid maincontentwpr_style"> <!-- container begins -->
+			<div class="row navcolor"> <!-- row begins -->
+				<div class="col-md-12"><!-- col-md-12 begins -->
+					
+					<div class="menu-button">Menu</div><!-- FlexNav Begins -->
+
+						<nav class="navstyle">
+							<ul class="ulwpr_style flexnav" data-break="800">
+								<li class="navabout">
+									<a href="#">About</a>
+									<ul>
+										<li><a href="HISTORYLINK">History</a></li>
+										<li><a href="STAFFLINK">Staff</a></li>
+									</ul>
+								</li>
+								<li class="navservices">
+									<a href="#">Services</a>
+									<ul>
+										<li><a href="SERVICESLINK">Services</a></li>
+										<li><a href="PARTNERSLINK">Partners</a></li>
+									</ul>
+								</li>
+								<li class="navclients">
+									<a href="CLIENTSLINK">Clients</a>
+								</li>
+
+							</ul>
+						</nav>
+				</div><!-- col-md-12 ends -->
+			</div><!-- row ends -->
+			<div="row"> <!-- row begins -->
+				<h2 class="col-md-6 col-md-offset-2 cmpyphrase">This is where the Dworbell philosophy will go.<h2><!-- col-md-6 begins/ends -->
+				<img src="images/Placeholder.jpg" alt="Dworbell, Inc." class="col-md-3 dworbellgraphic"><!-- col-md-3 begins/ends -->
+			
+			</div> <!-- row ends -->
+		</main> <!-- container ends -->
+		<footer class="container-fluid footerwp_style">
+			<div class="row">
+			<div class="col-md-12 footercontent">
+				<p>&copy Dworbell, Inc.</p>
+				<p>1400 16th Street NW, Suite 420, Washington, DC 20036</p>
+			</div>
+			</div><!-- /.row -->
+		</footer><!-- /.container -->
+
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-1.11.1.js" integrity="sha256-MCmDSoIMecFUw3f1LicZ/D/yonYAoHrgiep/3pCH9rw=" crossorigin="anonymous"></script>
+		<!-- Bootstrap Javascript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- Colorbox Javascript -->
+        <script src="js/jquery.colorbox.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".inline").colorbox({inline:true, width:"50%"});
+            });
+        </script>
+        <!-- FlexNav Javascript -->
+        <script type="text/javascript" src="js/jquery.flexnav.js"></script>
+        <script>
+        	$(".flexnav").flexNav();
+        	$(".flexnav").flexNav({ 'animationSpeed' : 'fast' });
+        </script>
+		<!-- My Javascript -->
+		  <script src="js/general.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,215 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* Overall Wrapper*/
+.overallwp {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+ }
+
+/* Header Writting*/
+
+.hddivh1 {
+	font-size: 3em;
+    font-weight: normal;
+	color: #D00;
+	float: left;
+
+}
+
+.hddivp {
+	color: #888;
+	font-size: 1.5em;
+    font-weight: normal;
+    float:left;
+    padding-top: 1.2em;
+    padding-left: 1em;
+
+}
+
+/* Header NAV */
+
+.hddivnav {
+    color: white;
+    clear:both;
+}
+
+.hddivnav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hddivnav li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.hddivnav li a {
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding: 20px 40px;
+    border-right: 1px solid white;
+    background: black;
+}
+
+.hddivnav li a:hover {
+	background: red;
+}
+
+.hddivnav li:last-child a {
+    border-right:none;
+}
+
+
+/* Column Layout and Containers */
+
+	/* Main Wrapper*/
+.mndivwp {
+    width: 100%;
+    overflow:hidden;
+}
+
+/* Main Main */
+.mndivmn {
+    width: 700px;
+    float:left;
+    overflow:hidden;
+    border-bottom: solid rgb(137,137,137) 1px;
+}
+
+.firstcharacter {
+	float: left;
+    font-size: 6em;
+    line-height: 1;
+    color: #DDD;
+    margin-right: 10px;
+}
+
+.mndivmnh1{
+	font-size: 2em;
+	font-weight: normal;
+	color: #CCC;
+}
+
+.mndivmn a{
+  text-decoration: none;
+  color: black;
+}
+
+.mndivmnh2{
+	font-size: 2em;
+    font-weight: normal;
+}
+
+.womanfsh{
+	width: 100%;
+}
+
+.mndivp{
+	font-size: 18px;
+	line-height: 1.5;
+  color: rgb(137, 137, 137);
+}
+
+.mndivpcontinue {
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+.mndivpcontinue a{
+	text-align: right;
+	text-decoration: none;
+	color: #D00;
+	font-weight: bold;
+	padding: 10px;
+}
+
+/* Main Aside */
+
+.mndivas {
+   width: 220px;
+   clear: right-top;
+   overflow:hidden;
+   padding: 20px;
+}
+
+.mndivas h1{
+  color: rgb(137, 137, 137);
+  font-weight: bold;
+}
+
+.mndivas p{
+  color: rgb(137, 137, 137);
+}
+
+.asdivadplaceholder{
+  background: rgb(204, 204, 204);
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+
+}
+
+.asnavul li{
+  list-style-type: disc;
+  color: rgb(137,137,137);
+}
+
+.asnavul a{
+  text-decoration: none;
+  color: #D00;
+}
+
+/* Footer */
+
+.ftnav{
+	color: red;
+	clear:both;
+	display: block;
+}
+
+.ftnav ul {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    display:block;
+}
+
+
+.ftnav li{   
+	display: inline-block;
+  padding: 5px;
+}
+
+.ftnav a{
+	display: inline-block;
+  color: #D00;
+  text-decoration:none;
+  padding-right: 5px;
+  border-right: solid rgb(137,137,137) 1px;
+
+}
+
+.copyright {
+    color: rgb(137, 137, 137);
+}

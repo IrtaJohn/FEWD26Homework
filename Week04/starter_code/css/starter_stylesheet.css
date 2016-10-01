@@ -1,0 +1,194 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* Fonts */
+
+.allfonts{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.hfont{
+    font-weight: bold;
+    color: blue;
+}
+
+/* Body Overall Wrapper */
+.bodywppr{
+	width: 100%;
+	background: #aaa;
+}
+
+.bodycontentwppr{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.headerwppr{
+	background: black;
+	border-bottom: solid yellow 2px;
+	margin-top: 0;
+	padding: 25px;
+
+}
+.logo_name{
+	color: yellow;
+	text-decoration: none;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.headernavsections {;
+	text-align: right;
+	font-size: 20px;
+}
+
+.headernavsections li{
+	display: inline-block;
+	text-align: right;
+}
+
+.headernavsections a{
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+
+}
+.linkbold{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Oswald', serif;
+}
+/* Section; Logo */
+.Logophrasewppr{
+	background: #d3d3d3; 
+	width: 100%;
+}
+
+.Logophrasewppr p{
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+ins{
+	text-decoration: none;
+	border-bottom: solid 2px yellow;
+}
+/* Main; Image */
+
+.mainimage{
+	background-image: url('../images/coworking.jpg');
+	background-position: center;
+	max-width: 100%;
+	padding: 30px;
+}
+
+/* The background image is being cut off but I cannot undo it. What's causing it? */
+
+/* Main; Floating Box */
+.floatingbox {
+	width: 300px;
+    float: right;
+    padding: 15px;
+    background: rgba(255,255,255,.7);
+ }
+
+.floatingbox h1{
+	margin: 0;
+}
+
+.bt_mainfloatingbox{
+	width: 80%;
+	padding: 0;
+	margin: 0 auto;
+	background: yellow;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+}
+
+.bt_mainfloatingbox a{
+	padding: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+
+}
+/* Nav */
+
+.navmainwppr {
+	background: white;
+}
+
+.navmainwppr h3{
+	margin: 0;
+	padding: 0;
+}
+
+.navprofile{
+	width: 33.33%;
+	float: left;
+	border-right: solid 1px #d3d3d3;
+	padding: 20px;
+}
+
+.navdeveloper{
+	width: 33.33%;
+	float: left;	
+	border-right: solid 1px #d3d3d3;
+	padding: 20px;
+}
+
+.navdesigner{
+	width: 33.33%;
+	float: right;
+	border-right: solid 1px #d3d3d3;
+	padding: 20px;
+}
+
+
+.btn_nav {
+	padding: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    background: #d3d3d3;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.2);
+/*    transition-property: box-shadow;
+    transition-duration: 200ms; -- Why is the transition fading affect not working?*/
+}
+
+/* Footer */
+.footerwppr{
+	background: black;
+	margin: 0 auto;
+}
+
+.footerwppr p{
+	color: white;
+	padding: 20px;
+	margin: 0;
+}
+/* How do I remove the spave beteen the bottom of the border and the entire wrapper? */
